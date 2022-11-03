@@ -1,0 +1,115 @@
+{
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667476447272,
+    "changeTime": 1667477572465,
+    "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+    "state": "u",
+    "isArtifactRoot": true,
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667476447272,
+    "changeTime": 1667476447272,
+    "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667476447272,
+    "changeTime": 1667476447272,
+    "contentHash": "f0f7f39ec7e62249ee81dac2c3f1b3586a4fd52e",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects",
+    "isDirectory": true,
+    "size": 128,
+    "modifiedTime": 1667476447273,
+    "changeTime": 1667476447273,
+    "contentHash": "e2c55c3d04baec3534809c6a36bd5648b363c119",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Account": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Account",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667476447272,
+    "changeTime": 1667476447272,
+    "contentHash": "1003ed7ace0a22575202c755ad5f988148ca2df5",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Account/listViews": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Account/listViews",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667476447272,
+    "changeTime": 1667476447272,
+    "contentHash": "be9f79d2d606416f1fbfd547d60270f4cb24558a",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Account/listViews/All_Accounts.listView-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Account/listViews/All_Accounts.listView-meta.xml",
+    "size": 454,
+    "modifiedTime": 1667476447272,
+    "changeTime": 1667476447272,
+    "contentHash": "7bb69c80b824ac795143cc785d72c14d17639002",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "ListView"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Contact": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Contact",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667476447273,
+    "changeTime": 1667476447273,
+    "contentHash": "1003ed7ace0a22575202c755ad5f988148ca2df5",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Contact/listViews": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Contact/listViews",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667476447273,
+    "changeTime": 1667476447273,
+    "contentHash": "70d4cbf0bcd66892a1b9dea7bafbe8a18438640b",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Contact/listViews/All_Contacts.listView-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/Contact/listViews/All_Contacts.listView-meta.xml",
+    "size": 443,
+    "modifiedTime": 1667476447273,
+    "changeTime": 1667476447273,
+    "contentHash": "f530db883ae2caf8d4cf47e77310da148fb23891",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "ListView"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets",
+    "isDirectory": true,
+    "size": 416,
+    "modifiedTime": 1667477599629,
+    "changeTime": 1667477599629,
+    "contentHash": "7022a1c086f0d2badf7153ff2dbc73dcc6dd18d8",
+    "state": "u",
+    "isWorkspace": true
+  }
+}

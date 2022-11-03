@@ -5,6 +5,8 @@ project:
         name:  DynamicGaugeTargets
         api_version: '48.0'
     source_format: sfdx
+    dependencies:
+        - version_id: 04t5G0000043wooQAA
 
 tasks:
     robot:

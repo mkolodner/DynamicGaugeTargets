@@ -1,6 +1,8 @@
-# CleanRepoforTesting
+# DynamicGaugeTargets
 
-This repo has almost nothing in the force/app directory (just a couple of list views to make it possible to look at inserted data), so it spins up a completely default scratch org. But it has a mapping and sample dataset that will insert to some of the standard objects, even squirrely ones like CaseComment and those with polymorphic fields, like Task and FeedItem. On those, you must only use one table in the polymorphic field (so this repo uses Contact.) And the dev.json includes the setting for turning off persistent browser caching (enableS1EncryptedStoragePref2).
+This repo is built to try out creating an object for storing targets for dashboard Dynamic Gauge components. 
+
+Has a mapping and sample dataset that will insert to some of the standard objects, even squirrely ones like CaseComment and those with polymorphic fields, like Task and FeedItem. On those, you must only use one table in the polymorphic field (so this repo uses Contact.) And the dev.json includes the setting for turning off persistent browser caching (enableS1EncryptedStoragePref2).
 
 ## Development
 

@@ -1,0 +1,29 @@
+minimum_cumulusci_version: '3.13.1'
+project:
+    name: CleanRepoforTesting
+    package:
+        name:  Clean-Repo-for-Testing
+        api_version: '48.0'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/CleanRepoforTesting/tests
+            options:
+                outputdir: robot/CleanRepoforTesting/results
+
+    robot_testdoc:
+        options:
+            path: robot/CleanRepoforTesting/tests
+            output: robot/CleanRepoforTesting/doc/CleanRepoforTesting_tests.html
+flows:
+    config_qa:
+        steps:
+            3:
+                task: load_dataset
+    config_dev:
+        steps:
+            3:
+                task: load_dataset
+

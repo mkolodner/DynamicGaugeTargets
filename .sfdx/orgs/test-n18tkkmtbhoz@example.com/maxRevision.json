@@ -1,4 +1,65 @@
 {
-  "serverMaxRevisionCounter": 0,
-  "sourceMembers": {}
+  "serverMaxRevisionCounter": 128,
+  "sourceMembers": {
+    "ListView__DashboardTarget__c.All": {
+      "serverRevisionCounter": 21,
+      "lastRetrievedFromServer": 21,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "CustomField__DashboardTarget__c.Target__c": {
+      "serverRevisionCounter": 7,
+      "lastRetrievedFromServer": 7,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__DashboardTarget__c.Description__c": {
+      "serverRevisionCounter": 10,
+      "lastRetrievedFromServer": 10,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__DashboardTarget__c.SOQL_Query__c": {
+      "serverRevisionCounter": 13,
+      "lastRetrievedFromServer": 13,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Profile__Admin": {
+      "serverRevisionCounter": 15,
+      "lastRetrievedFromServer": 15,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Layout__DashboardTarget__c-DashboardTarget Layout": {
+      "serverRevisionCounter": 110,
+      "lastRetrievedFromServer": 110,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "CustomObject__DashboardTarget__c": {
+      "serverRevisionCounter": 52,
+      "lastRetrievedFromServer": 52,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomTab__DashboardTarget__c": {
+      "serverRevisionCounter": 4,
+      "lastRetrievedFromServer": 4,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CompactLayout__DashboardTarget__c.DashboardTarget_Compact_Layout": {
+      "serverRevisionCounter": 17,
+      "lastRetrievedFromServer": 17,
+      "memberType": "CompactLayout",
+      "isNameObsolete": false
+    },
+    "FlexiPage__DashboardTarget_Record_Page": {
+      "serverRevisionCounter": 128,
+      "lastRetrievedFromServer": 128,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    }
+  }
 }

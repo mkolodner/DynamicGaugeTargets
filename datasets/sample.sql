@@ -18,29 +18,6 @@ CREATE TABLE "Campaign" (
 	PRIMARY KEY (id)
 );
 INSERT INTO "Campaign" VALUES(1,'True','One Campaign','Conference','Planned','1899-12-09','1899-12-10','a description of this campaign','');
-CREATE TABLE "Case" (
-	id INTEGER NOT NULL, 
-	"IsEscalated" VARCHAR(255), 
-	"Reason" VARCHAR(255), 
-	"Origin" VARCHAR(255), 
-	"Description" VARCHAR(255), 
-	"Status" VARCHAR(255), 
-	"Subject" VARCHAR(255), 
-	"Type" VARCHAR(255), 
-	"Priority" VARCHAR(255), 
-	"AccountId" VARCHAR(255), 
-	"ContactId" VARCHAR(255), 
-	"ParentId" VARCHAR(255), 
-	PRIMARY KEY (id)
-);
-INSERT INTO "Case" VALUES(1,'False','','Web','CaseDescription','New','CaseSubject','','Medium','','','');
-CREATE TABLE "CaseComment" (
-	id INTEGER NOT NULL, 
-	"CommentBody" VARCHAR(255), 
-	"ParentId" VARCHAR(255), 
-	PRIMARY KEY (id)
-);
-INSERT INTO "CaseComment" VALUES(1,'CaseCommentBody','1');
 CREATE TABLE "Contact" (
 	id INTEGER NOT NULL, 
 	"FirstName" VARCHAR(255), 
@@ -49,14 +26,17 @@ CREATE TABLE "Contact" (
 	"AccountId" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "Contact" VALUES(1,'First','Last','1851-12-22','1');
-CREATE TABLE "FeedItem" (
+INSERT INTO "Contact" VALUES(1,'First1','Last','1851-12-22','2');
+INSERT INTO "Contact" VALUES(2,'First2','Last','1851-12-22','1');
+CREATE TABLE "DashboardTarget__c" (
 	id INTEGER NOT NULL, 
-	"Body" VARCHAR(255), 
-	"ParentId" VARCHAR(255), 
+	"Name" VARCHAR(255), 
+	"Description__c" VARCHAR(255), 
+	"SOQL_Query__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "FeedItem" VALUES(4,'<p>a chatter post on a contact</p>','1');
+INSERT INTO "DashboardTarget__c" VALUES(1,'Target1','a random record to have something to look at in the org','');
+INSERT INTO "DashboardTarget__c" VALUES(2,'Target2 with SOQL','record with a value in the SOQL Query field','SELECT Id from Contact WHERE LastName = ''Last''');
 CREATE TABLE "Opportunity" (
 	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 
@@ -67,15 +47,4 @@ CREATE TABLE "Opportunity" (
 	PRIMARY KEY (id)
 );
 INSERT INTO "Opportunity" VALUES(1,'An Oppty on AccountName','1900-01-01','50.0','Closed Won','1');
-CREATE TABLE "Task" (
-	id INTEGER NOT NULL, 
-	"ActivityDate" VARCHAR(255), 
-	"Description" VARCHAR(255), 
-	"Status" VARCHAR(255), 
-	"Subject" VARCHAR(255), 
-	"WhoId" VARCHAR(255), 
-	"WhatId" VARCHAR(255), 
-	PRIMARY KEY (id)
-);
-INSERT INTO "Task" VALUES(1,'2020-06-19','','Not Started','ThisIsTheSubject','1','1');
 COMMIT;

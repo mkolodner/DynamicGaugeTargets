@@ -30,6 +30,48 @@
     "state": "u",
     "package": "force-app"
   },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667479289082,
+    "changeTime": 1667479289082,
+    "contentHash": "fdea0610fbeb5b9fedd68085dd767e2a870c5f38",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages/DashboardTarget_Record_Page.flexipage-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages/DashboardTarget_Record_Page.flexipage-meta.xml",
+    "size": 1891,
+    "modifiedTime": 1667479289082,
+    "changeTime": 1667479289082,
+    "contentHash": "326f50e46b82d75df238865fbc80acef9056cd42",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "FlexiPage"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667479289081,
+    "changeTime": 1667479289081,
+    "contentHash": "873b49d3b1624a488c2daca1efec3da191583c3b",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts/DashboardTarget__c-DashboardTarget Layout.layout-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts/DashboardTarget__c-DashboardTarget Layout.layout-meta.xml",
+    "size": 2869,
+    "modifiedTime": 1667479289081,
+    "changeTime": 1667479289081,
+    "contentHash": "08c6b4809d93080e8661a028363f3cfab9a43f50",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "Layout"
+  },
   "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects": {
     "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects",
     "isDirectory": true,
@@ -101,58 +143,6 @@
     "state": "u",
     "package": "force-app",
     "metadataType": "ListView"
-  },
-  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets": {
-    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets",
-    "isDirectory": true,
-    "size": 416,
-    "modifiedTime": 1667477599629,
-    "changeTime": 1667477599629,
-    "contentHash": "7022a1c086f0d2badf7153ff2dbc73dcc6dd18d8",
-    "state": "u",
-    "isWorkspace": true
-  },
-  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages": {
-    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages",
-    "isDirectory": true,
-    "size": 96,
-    "modifiedTime": 1667479289082,
-    "changeTime": 1667479289082,
-    "contentHash": "fdea0610fbeb5b9fedd68085dd767e2a870c5f38",
-    "state": "u",
-    "package": "force-app"
-  },
-  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages/DashboardTarget_Record_Page.flexipage-meta.xml": {
-    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flexipages/DashboardTarget_Record_Page.flexipage-meta.xml",
-    "size": 1891,
-    "modifiedTime": 1667479289082,
-    "changeTime": 1667479289082,
-    "contentHash": "326f50e46b82d75df238865fbc80acef9056cd42",
-    "isMetadataFile": true,
-    "state": "u",
-    "package": "force-app",
-    "metadataType": "FlexiPage"
-  },
-  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts": {
-    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts",
-    "isDirectory": true,
-    "size": 96,
-    "modifiedTime": 1667479289081,
-    "changeTime": 1667479289081,
-    "contentHash": "873b49d3b1624a488c2daca1efec3da191583c3b",
-    "state": "u",
-    "package": "force-app"
-  },
-  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts/DashboardTarget__c-DashboardTarget Layout.layout-meta.xml": {
-    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/layouts/DashboardTarget__c-DashboardTarget Layout.layout-meta.xml",
-    "size": 2869,
-    "modifiedTime": 1667479289081,
-    "changeTime": 1667479289081,
-    "contentHash": "08c6b4809d93080e8661a028363f3cfab9a43f50",
-    "isMetadataFile": true,
-    "state": "u",
-    "package": "force-app",
-    "metadataType": "Layout"
   },
   "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/DashboardTarget__c": {
     "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/objects/DashboardTarget__c",
@@ -301,5 +291,15 @@
     "state": "u",
     "package": "force-app",
     "metadataType": "CustomTab"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets",
+    "isDirectory": true,
+    "size": 448,
+    "modifiedTime": 1667478692342,
+    "changeTime": 1667478692342,
+    "contentHash": "e68656a352122bd1a137346b9d55170ffe37990d",
+    "state": "u",
+    "isWorkspace": true
   }
 }

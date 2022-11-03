@@ -1,8 +1,10 @@
 # DynamicGaugeTargets
 
-This repo is built to try out creating an object for storing targets for dashboard Dynamic Gauge components. 
+This repo is built to try out creating an object for storing targets for dashboard Dynamic Gauge components. There will be a flow that can read DashboardTarget records and the SOQL on them and then use that SOQL to update the record.
 
-Has a mapping and sample dataset that will insert to some of the standard objects, even squirrely ones like CaseComment and those with polymorphic fields, like Task and FeedItem. On those, you must only use one table in the polymorphic field (so this repo uses Contact.) And the dev.json includes the setting for turning off persistent browser caching (enableS1EncryptedStoragePref2).
+There is a dependency on UnofficialSF's flow component for using SQOL (https://unofficialsf.com/a-graphical-soql-query-builder-for-flow/) which gets automatically installed.
+
+Has a mapping and sample dataset that will insert to some of the standard objects. The dev.json includes the setting for turning off persistent browser caching (enableS1EncryptedStoragePref2).
 
 ## Development
 

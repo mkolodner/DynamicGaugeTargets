@@ -14,55 +14,6 @@ Insert Contact:
   lookups:
     AccountId:
       table: Account
-Insert Case:
-  sf_object: Case
-  table: Case
-  fields:
-    - IsEscalated
-    - Reason
-    - Origin
-    - Description
-    - Status
-    - Subject
-    - Type
-    - Priority
-  lookups:
-    AccountId:
-      table: Account
-    ContactId:
-      table: Contact
-    ParentId:
-      table: Case
-      after: Insert Case
-Insert Task:
-  sf_object: Task
-  table: Task
-  fields:
-    - ActivityDate
-    - Description
-    - Status
-    - Subject
-  lookups:
-    WhoId:
-      table: Contact
-    WhatId:
-      table: Case
-Insert CaseComment:
-  sf_object: CaseComment
-  table: CaseComment
-  fields:
-    - CommentBody
-  lookups:
-    ParentId:
-      table: Case
-Insert FeedItem:
-  sf_object: FeedItem
-  table: FeedItem
-  fields:
-    - Body
-  lookups:
-    ParentId:
-      table: Contact
 Insert Opportunity:
   sf_object: Opportunity
   table: Opportunity
@@ -90,3 +41,9 @@ Insert Campaign:
     ParentId:
       table: Campaign
       after: Insert Campaign
+Insert DashboardTarget:
+  sf_object: DashboardTarget__c
+  fields:
+    - Name
+    - Description__c
+    - SOQL_Query__c

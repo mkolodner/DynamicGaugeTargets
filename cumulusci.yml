@@ -1,22 +1,22 @@
 minimum_cumulusci_version: '3.13.1'
 project:
-    name: CleanRepoforTesting
+    name: DynamicGaugeTargets
     package:
-        name:  Clean-Repo-for-Testing
+        name:  DynamicGaugeTargets
         api_version: '48.0'
     source_format: sfdx
 
 tasks:
     robot:
         options:
-            suites: robot/CleanRepoforTesting/tests
+            suites: robot/DynamicGaugeTargets/tests
             options:
-                outputdir: robot/CleanRepoforTesting/results
+                outputdir: robot/DynamicGaugeTargets/results
 
     robot_testdoc:
         options:
-            path: robot/CleanRepoforTesting/tests
-            output: robot/CleanRepoforTesting/doc/CleanRepoforTesting_tests.html
+            path: robot/DynamicGaugeTargets/tests
+            output: robot/DynamicGaugeTargets/doc/DynamicGaugeTargets_tests.html
 flows:
     config_qa:
         steps:

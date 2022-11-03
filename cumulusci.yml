@@ -29,3 +29,14 @@ flows:
             3:
                 task: load_dataset
 
+flows:
+    cleandataset:
+        description: Loads the sample dataset with additional options. WARNING--deletes all data in several objects first!
+        steps:
+            1:
+                task: delete_data 
+                options: 
+                    objects: Entitlement,Opportunity,Contact,Account,DashboardTarget__c, Campaign
+            2:
+                task: load_dataset
+

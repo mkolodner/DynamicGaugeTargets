@@ -25,8 +25,8 @@
     <assignments>
         <name>Add_to_Collection</name>
         <label>Add to Collection</label>
-        <locationX>487</locationX>
-        <locationY>370</locationY>
+        <locationX>502</locationX>
+        <locationY>363</locationY>
         <assignmentItems>
             <assignToReference>colvarDashboardTargetsToUpdate</assignToReference>
             <operator>Add</operator>

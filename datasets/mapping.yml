@@ -10,6 +10,7 @@ Insert Contact:
     - FirstName
     - LastName
     - Birthdate
+    - Title
   anchor_date: '1900-01-01'
   lookups:
     AccountId:
@@ -45,5 +46,7 @@ Insert DashboardTarget:
   sf_object: DashboardTarget__c
   fields:
     - Name
-    - Description__c
+    - Target__c
+    - Object_API_Name__c
     - SOQL_Query__c
+    - Description__c

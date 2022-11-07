@@ -46,7 +46,8 @@ Insert DashboardTarget:
   sf_object: DashboardTarget__c
   fields:
     - Name
+    - Auto_Update__c
     - Target__c
     - Object_API_Name__c
-    - SOQL_Query__c
+    - SOQL_WHERE_clause__c
     - Description__c

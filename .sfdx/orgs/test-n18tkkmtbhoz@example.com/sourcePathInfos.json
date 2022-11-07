@@ -23,10 +23,10 @@
   "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default": {
     "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default",
     "isDirectory": true,
-    "size": 256,
-    "modifiedTime": 1667508505797,
-    "changeTime": 1667508505797,
-    "contentHash": "e691469a8251ecd083456a0e89b330292f36f1c0",
+    "size": 352,
+    "modifiedTime": 1667524733087,
+    "changeTime": 1667524733087,
+    "contentHash": "c7c9a909cb00df720274eb2930170656c9369e9e",
     "state": "u",
     "package": "force-app"
   },
@@ -315,9 +315,9 @@
   "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flows/DashboardTargets_Contact_targets.flow-meta.xml": {
     "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/flows/DashboardTargets_Contact_targets.flow-meta.xml",
     "size": 5260,
-    "modifiedTime": 1667509766858,
-    "changeTime": 1667509766858,
-    "contentHash": "56841acf988038405a8d6a977e85ab7b1e3fad9a",
+    "modifiedTime": 1667524733088,
+    "changeTime": 1667524733088,
+    "contentHash": "a169f0a37eae2a2f500e457706aff82a3a986e51",
     "isMetadataFile": true,
     "state": "u",
     "package": "force-app",
@@ -333,5 +333,99 @@
     "state": "u",
     "package": "force-app",
     "metadataType": "CustomField"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/applications": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/applications",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667524733087,
+    "changeTime": 1667524733087,
+    "contentHash": "773f904d4fd3e441ea0f66dde54c9ad8697bd065",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/applications/standard__LightningSales.app-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/applications/standard__LightningSales.app-meta.xml",
+    "size": 672,
+    "modifiedTime": 1667524733087,
+    "changeTime": 1667524733087,
+    "contentHash": "d3a332621bb7e9a0c7c25620200e800009bba57b",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "CustomApplication"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards",
+    "isDirectory": true,
+    "size": 128,
+    "modifiedTime": 1667524733086,
+    "changeTime": 1667524733086,
+    "contentHash": "d35a9682b0c960a975ca66a00c6c904dd2820b11",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards/PublicDashboards": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards/PublicDashboards",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667524733086,
+    "changeTime": 1667524733086,
+    "contentHash": "20b255b773c64115568464fa43d493879b739480",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards/PublicDashboards/ZIBMQnqAGUZtQUUouSpkmCrImftWew.dashboard-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards/PublicDashboards/ZIBMQnqAGUZtQUUouSpkmCrImftWew.dashboard-meta.xml",
+    "size": 2352,
+    "modifiedTime": 1667524733086,
+    "changeTime": 1667524733086,
+    "contentHash": "ef0b4f529dfd37be28dd253ad320576184af7759",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "Dashboard"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards/PublicDashboards.dashboardFolder-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/dashboards/PublicDashboards.dashboardFolder-meta.xml",
+    "size": 341,
+    "modifiedTime": 1667524733085,
+    "changeTime": 1667524733085,
+    "contentHash": "7f1dee9e931275ac2795826adbf8e447b2759580",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "DashboardFolder"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/reports": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/reports",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667524733078,
+    "changeTime": 1667524733078,
+    "contentHash": "36b4ca4c5731877fa01de2265bc0e080036f21b0",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/reports/unfiled$public": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/reports/unfiled$public",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1667524733078,
+    "changeTime": 1667524733078,
+    "contentHash": "76f89fcb51f1b4063d74c409b1bc5429d45eb692",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/reports/unfiled$public/Managers_in_the_Database_Cof.report-meta.xml": {
+    "sourcePath": "/Users/michaelkolodner/Documents/GitHub/DynamicGaugeTargets/DynamicGaugeTargets/force-app/main/default/reports/unfiled$public/Managers_in_the_Database_Cof.report-meta.xml",
+    "size": 1209,
+    "modifiedTime": 1667524733083,
+    "changeTime": 1667524733083,
+    "contentHash": "b7c1e7bfd4d1faadbf3350f58cb18806acaef681",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "Report"
   }
 }

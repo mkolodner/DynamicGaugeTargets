@@ -30,10 +30,13 @@ CREATE TABLE "Contact" (
 	"AccountId" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "Contact" VALUES(1,'First4','Last','1851-12-22','Secretary','1');
-INSERT INTO "Contact" VALUES(2,'First5','Last','1851-12-22','Chief People Person','1');
-INSERT INTO "Contact" VALUES(3,'First2','Last','1851-12-22','Manager of People','2');
-INSERT INTO "Contact" VALUES(4,'First1','Last','1851-12-22','Chief Beans Officer','2');
+INSERT INTO "Contact" VALUES(1,'NotA','Manager','','Machinist','2');
+INSERT INTO "Contact" VALUES(2,'A','Manager','','Manager of Data','2');
+INSERT INTO "Contact" VALUES(3,'First4','Last','1851-12-22','Secretary','1');
+INSERT INTO "Contact" VALUES(4,'First5','Last','1851-12-22','Chief People Person','1');
+INSERT INTO "Contact" VALUES(5,'First2','Last','1851-12-22','Manager of People','2');
+INSERT INTO "Contact" VALUES(6,'First1','Last','1851-12-22','Chief Beans Officer','2');
+INSERT INTO "Contact" VALUES(7,'King','Shah','','Chief Executive King','2');
 CREATE TABLE "DashboardTarget__c" (
 	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 
@@ -47,6 +50,7 @@ INSERT INTO "DashboardTarget__c" VALUES(1,'Target3 with SOQL','','Contact','SELE
 INSERT INTO "DashboardTarget__c" VALUES(2,'Target4 with SOQL','','Contact','SELECT Id from Contact WHERE (Title LIKE ''%Chief%'' OR Title LIKE ''%Manager%'')','record with a value in the SOQL Query field. All contacts that are management level (C-suite or "manager" in title.)');
 INSERT INTO "DashboardTarget__c" VALUES(3,'Target1','','','','a random record to have something to look at in the org');
 INSERT INTO "DashboardTarget__c" VALUES(4,'Target2 with SOQL','','Contact','SELECT Id from Contact WHERE LastName = ''Last''','record with a value in the SOQL Query field');
+INSERT INTO "DashboardTarget__c" VALUES(5,'All Contacts in DB','','Contact','SELECT Id from Contact','record with a value in the SOQL Query field. All contacts.');
 CREATE TABLE "Opportunity" (
 	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 

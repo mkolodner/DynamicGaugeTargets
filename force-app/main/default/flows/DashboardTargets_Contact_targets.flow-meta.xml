@@ -94,7 +94,7 @@
         <name>DashboardTargets</name>
         <label>DashboardTargets</label>
         <locationX>168</locationX>
-        <locationY>208</locationY>
+        <locationY>207</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop</targetReference>

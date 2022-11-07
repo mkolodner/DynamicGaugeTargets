@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 232,
+  "serverMaxRevisionCounter": 279,
   "sourceMembers": {
     "ListView__DashboardTarget__c.All": {
       "serverRevisionCounter": 146,
@@ -31,6 +31,12 @@
       "memberType": "CustomField",
       "isNameObsolete": false
     },
+    "Report__unfiled$public/Managers_in_the_Database_Cof": {
+      "serverRevisionCounter": 272,
+      "lastRetrievedFromServer": 272,
+      "memberType": "Report",
+      "isNameObsolete": false
+    },
     "Profile__Admin": {
       "serverRevisionCounter": 131,
       "lastRetrievedFromServer": 131,
@@ -43,16 +49,34 @@
       "memberType": "Layout",
       "isNameObsolete": false
     },
+    "DashboardFolder__PublicDashboards": {
+      "serverRevisionCounter": 269,
+      "lastRetrievedFromServer": 269,
+      "memberType": "DashboardFolder",
+      "isNameObsolete": false
+    },
     "CustomObject__DashboardTarget__c": {
       "serverRevisionCounter": 52,
       "lastRetrievedFromServer": 52,
       "memberType": "CustomObject",
       "isNameObsolete": false
     },
+    "Dashboard__PublicDashboards/ZIBMQnqAGUZtQUUouSpkmCrImftWew": {
+      "serverRevisionCounter": 276,
+      "lastRetrievedFromServer": 276,
+      "memberType": "Dashboard",
+      "isNameObsolete": false
+    },
     "CustomTab__DashboardTarget__c": {
       "serverRevisionCounter": 4,
       "lastRetrievedFromServer": 4,
       "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomApplication__standard__LightningSales": {
+      "serverRevisionCounter": 279,
+      "lastRetrievedFromServer": 279,
+      "memberType": "CustomApplication",
       "isNameObsolete": false
     },
     "CompactLayout__DashboardTarget__c.DashboardTarget_Compact_Layout": {
@@ -68,8 +92,8 @@
       "isNameObsolete": false
     },
     "Flow__DashboardTargets_Contact_targets": {
-      "serverRevisionCounter": 232,
-      "lastRetrievedFromServer": 232,
+      "serverRevisionCounter": 260,
+      "lastRetrievedFromServer": 260,
       "memberType": "Flow",
       "isNameObsolete": false
     }

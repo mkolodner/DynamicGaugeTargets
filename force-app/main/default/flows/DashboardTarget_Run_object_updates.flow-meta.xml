@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>When run subflows for each object are launched.</description>
+    <interviewLabel>DashboardTarget_Run object updates {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>DashboardTarget_Run object updates</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>57</locationX>
+        <locationY>58</locationY>
+        <connector>
+            <targetReference>Pause1</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <subflows>
+        <name>Contact_targets</name>
+        <label>Contact targets</label>
+        <locationX>344</locationX>
+        <locationY>189</locationY>
+        <flowName>DashboardTargets_Contact_targets</flowName>
+    </subflows>
+    <waits>
+        <name>Pause1</name>
+        <label>Pause1</label>
+        <locationX>183</locationX>
+        <locationY>190</locationY>
+        <defaultConnectorLabel>Default Path</defaultConnectorLabel>
+        <waitEvents>
+            <name>Pause</name>
+            <conditionLogic>and</conditionLogic>
+            <connector>
+                <targetReference>Contact_targets</targetReference>
+            </connector>
+            <eventType>AlarmEvent</eventType>
+            <inputParameters>
+                <name>AlarmTime</name>
+                <value>
+                    <elementReference>$Flow.InterviewStartTime</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>TimeOffset</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>TimeOffsetUnit</name>
+                <value>
+                    <stringValue>Hours</stringValue>
+                </value>
+            </inputParameters>
+            <label>Pause</label>
+        </waitEvents>
+    </waits>
+</Flow>

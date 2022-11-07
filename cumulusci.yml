@@ -36,7 +36,7 @@ flows:
             1:
                 task: delete_data 
                 options: 
-                    objects: Entitlement,Opportunity,Contact,Account,DashboardTarget__c, Campaign
+                    objects: Entitlement,Opportunity,Contact,Account,DashboardTarget__c,Campaign
             2:
                 task: load_dataset
 

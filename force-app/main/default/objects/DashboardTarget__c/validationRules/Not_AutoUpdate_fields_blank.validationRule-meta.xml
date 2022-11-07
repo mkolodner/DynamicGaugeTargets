@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_AutoUpdate_fields_blank</fullName>
+    <active>true</active>
+    <description>If this DashboardTarget will not auto-update the Object and WHERE fields must be blank.</description>
+    <errorConditionFormula>NOT(Auto_Update__c) &amp;&amp; 
+OR( 
+  NOT(ISBLANK( SOQL_WHERE_clause__c )),
+  NOT(ISBLANK( Object_API_Name__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Auto_Update__c</errorDisplayField>
+    <errorMessage>If this DashboardTarget will not auto-update leave the Object API Name and SOQL WHERE clause fields blank.</errorMessage>
+</ValidationRule>

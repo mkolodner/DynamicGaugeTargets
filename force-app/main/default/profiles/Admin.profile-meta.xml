@@ -3,40 +3,22 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>DashboardTarget__c.Description__c</field>
+        <field>DashboardTarget__c.Auto_Update__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>DashboardTarget__c.Object_API_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>DashboardTarget__c.SOQL_Query__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>DashboardTarget__c.Target__c</field>
+        <field>DashboardTarget__c.SOQL_WHERE_clause__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>DashboardTarget__c-DashboardTarget Layout</layout>
     </layoutAssignments>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>DashboardTarget__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <tabVisibilities>
-        <tab>DashboardTarget__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

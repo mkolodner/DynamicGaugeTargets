@@ -8,6 +8,7 @@
     <columns>SOQL_WHERE_clause__c</columns>
     <columns>Description__c</columns>
     <columns>CREATED_DATE</columns>
+    <columns>SOQL_Query__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

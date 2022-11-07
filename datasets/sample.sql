@@ -48,10 +48,10 @@ CREATE TABLE "DashboardTarget__c" (
 	PRIMARY KEY (id)
 );
 INSERT INTO "DashboardTarget__c" VALUES(1,'Chiefs','True','','Contact','Title LIKE ''%Chief%''','record with a value in the SOQL Query field');
-INSERT INTO "DashboardTarget__c" VALUES(2,'Managers','True','','Contact','SELECT Id from Contact WHERE (Title LIKE ''%Chief%'' OR Title LIKE ''%Manager%'')','record with a value in the SOQL Query field. All contacts that are management level (C-suite or "manager" in title.)');
+INSERT INTO "DashboardTarget__c" VALUES(2,'Managers','True','','Contact','(Title LIKE ''%Chief%'' OR Title LIKE ''%Manager%'')','record with a value in the SOQL Query field. All contacts that are management level (C-suite or "manager" in title.)');
 INSERT INTO "DashboardTarget__c" VALUES(3,'Target1','False','7.0','','','a random record to have something to look at in the org');
-INSERT INTO "DashboardTarget__c" VALUES(4,'Target2 with SOQL','True','','Contact','SELECT Id from Contact WHERE LastName = ''Last''','record with a value in the SOQL Query field');
-INSERT INTO "DashboardTarget__c" VALUES(5,'All Contacts in DB','True','','Contact','SELECT Id from Contact','record with a value in the SOQL Query field. All contacts.');
+INSERT INTO "DashboardTarget__c" VALUES(4,'Target2 with SOQL','True','','Contact','LastName = ''Last''','record with a value in the SOQL Query field');
+INSERT INTO "DashboardTarget__c" VALUES(5,'All Contacts in DB','True','','Contact','LastName !=''''','record with a value in the SOQL Query field. All contacts.');
 CREATE TABLE "Opportunity" (
 	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 

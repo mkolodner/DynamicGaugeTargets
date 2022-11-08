@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>When run subflows for each object are launched.</description>
+    <description>When run, subflows for each object are launched. There is a pause element (more can be added) to reset SOQL query limits.</description>
     <interviewLabel>DashboardTarget_Run object updates {!$Flow.CurrentDateTime}</interviewLabel>
     <label>DashboardTarget_Run object updates</label>
     <processMetadataValues>

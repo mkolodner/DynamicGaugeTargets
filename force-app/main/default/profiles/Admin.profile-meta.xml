@@ -3,17 +3,7 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>DashboardTarget__c.Auto_Update__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>DashboardTarget__c.SOQL_Query__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DashboardTarget__c.SOQL_WHERE_clause__c</field>
+        <field>DashboardTarget__c.Last_Updated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>

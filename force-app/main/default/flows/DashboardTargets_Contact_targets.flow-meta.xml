@@ -42,12 +42,19 @@
         <name>Assign_New_Target</name>
         <label>Assign New Target</label>
         <locationX>349</locationX>
-        <locationY>371</locationY>
+        <locationY>370</locationY>
         <assignmentItems>
             <assignToReference>Loop.Target__c</assignToReference>
             <operator>AssignCount</operator>
             <value>
                 <elementReference>SOQL_Query.sObjects</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Loop.Last_Updated__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
             </value>
         </assignmentItems>
         <connector>

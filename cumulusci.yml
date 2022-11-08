@@ -28,8 +28,6 @@ flows:
         steps:
             3:
                 task: load_dataset
-
-flows:
     cleandataset:
         description: Loads the sample dataset with additional options. WARNING--deletes all data in several objects first!
         steps:

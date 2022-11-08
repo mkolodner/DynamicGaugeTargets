@@ -42,7 +42,7 @@
         <name>Assign_New_Target</name>
         <label>Assign New Target</label>
         <locationX>349</locationX>
-        <locationY>370</locationY>
+        <locationY>371</locationY>
         <assignmentItems>
             <assignToReference>Loop.Target__c</assignToReference>
             <operator>AssignCount</operator>

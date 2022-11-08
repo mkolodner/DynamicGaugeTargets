@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SOQL_WHERE_clause__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>WHERE clause of the SOQL query that will be used in flow to keep this target up to date. Omit the SELECT clause and the object--those are added to the query by a formula.
+    <inlineHelpText>WHERE clause of the SOQL query that will be used in flow to keep this target up to date. Omit the SELECT clause and the object and &quot;WHERE&quot;--those are added to the query by a formula.
 Leave blank if this is not a record that will be kept up to date by a flow.</inlineHelpText>
     <label>SOQL WHERE clause</label>
     <length>255</length>

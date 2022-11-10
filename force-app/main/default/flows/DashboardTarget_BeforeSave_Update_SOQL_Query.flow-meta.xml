@@ -3,8 +3,8 @@
     <assignments>
         <name>Blank_SOQL_Query_field</name>
         <label>Blank SOQL Query field</label>
-        <locationX>604</locationX>
-        <locationY>510</locationY>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
         <assignmentItems>
             <assignToReference>$Record.SOQL_Query__c</assignToReference>
             <operator>Assign</operator>
@@ -16,8 +16,8 @@
     <assignments>
         <name>Fill_SOQL_Query_field</name>
         <label>Fill SOQL Query field</label>
-        <locationX>450</locationX>
-        <locationY>512</locationY>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
         <assignmentItems>
             <assignToReference>$Record.SOQL_Query__c</assignToReference>
             <operator>Assign</operator>
@@ -29,8 +29,8 @@
     <decisions>
         <name>Auto_Update</name>
         <label>Auto-Update?</label>
-        <locationX>518</locationX>
-        <locationY>336</locationY>
+        <locationX>182</locationX>
+        <locationY>311</locationY>
         <defaultConnector>
             <targetReference>Blank_SOQL_Query_field</targetReference>
         </defaultConnector>
@@ -63,7 +63,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -74,8 +74,8 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>400</locationX>
-        <locationY>48</locationY>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Auto_Update</targetReference>
         </connector>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <name>Blank_SOQL_Query_field</name>
         <label>Blank SOQL Query field</label>
@@ -79,6 +80,7 @@
         <connector>
             <targetReference>Auto_Update</targetReference>
         </connector>
+        <filterLogic>or</filterLogic>
         <filters>
             <field>SOQL_WHERE_clause__c</field>
             <operator>IsChanged</operator>

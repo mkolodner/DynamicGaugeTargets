@@ -3,7 +3,7 @@
     <actionCalls>
         <name>SOQL_Query</name>
         <label>SOQL Query</label>
-        <locationX>226</locationX>
+        <locationX>225</locationX>
         <locationY>371</locationY>
         <actionName>ExecuteSOQL</actionName>
         <actionType>apex</actionType>
@@ -68,7 +68,7 @@
         <name>Loop</name>
         <label>Loop</label>
         <locationX>316</locationX>
-        <locationY>207</locationY>
+        <locationY>208</locationY>
         <collectionReference>DashboardTargets</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -111,6 +111,13 @@
             <operator>EqualTo</operator>
             <value>
                 <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Object_API_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Contact</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>

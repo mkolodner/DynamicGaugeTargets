@@ -5,10 +5,10 @@
     <columns>Auto_Update__c</columns>
     <columns>Target__c</columns>
     <columns>Object_API_Name__c</columns>
-    <columns>SOQL_WHERE_clause__c</columns>
     <columns>Description__c</columns>
     <columns>CREATED_DATE</columns>
     <columns>SOQL_Query__c</columns>
+    <columns>SOQL_WHERE_clause__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

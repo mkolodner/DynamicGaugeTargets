@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SOQL_Query__c</fullName>
+    <description>Filled by before-save flow. (Couldn&apos;t be a formula because SOQL WHERE clause needs to be long text, which can&apos;t be used in a formula.</description>
     <externalId>false</externalId>
+    <inlineHelpText>DO NOT EDIT 
+Auto-filled by a flow upon save.</inlineHelpText>
     <label>SOQL Query</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>

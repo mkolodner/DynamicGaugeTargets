@@ -23,13 +23,14 @@ If you want to use this project in real life I **strongly** recommend you deploy
 1. Connect your sandbox to SFDX
     1. a. sfdx force:auth:web:login --setalias __aliasforsandbox__ --instanceurl https://test.salesforce.com 
     2. (once taken to test.salesforce.com you can click to use a custom domain)
-2. Delete from your local copy of the project all the parts of it that you do not want to deploy (and are going to cause you errors in deployment.) This means:
-    1. the dashboards (because the running user won't exist)
-    2. the reports (irrelevant)
-    3. the applications (I assume you don't want or need to modify the standard Sales app in your sandbox)
-    4. the list views for Account and Contact (you shouldn't need them)
-    5. and the profiles (you won't be able to deploy them without heavy editing)
-3. Deploy the metadata:
+2. Make sure that you [install the UnofficialSF flow component](https://unofficialsf.com/a-graphical-soql-query-builder-for-flow/) in your sandbox, since it's required for one of this project's flows. 
+3. Delete from your local copy of the project's force-app folder all the parts of it that you do not want to deploy (and are going to cause you errors if you try.) This means:
+    1. Folder: dashboards (because the running user won't exist)
+    2. Folder: reports (irrelevant)
+    3. Folder: applications (I assume you don't want or need to modify the standard Sales app in your sandbox)
+    4. Folders for Account and Contact within the objects folder. (All that's there are list views and you shouldn't need them.)
+    5. folder: profiles (you woudln't be able to deploy the admin profile without heavy editing)
+4. Deploy the metadata:
     1. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
-4. Once deployed you will need to modify field level security for all of the deployed fields or nobody will be able to see them--even you!
-5. Don't forget to modify and/or activate the flows that are installed.
+5. Once deployed you will need to modify field level security for all of the deployed fields (or nobody will be able to see them--even you!)
+6. Don't forget to modify and/or activate the flows that are installed.

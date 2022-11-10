@@ -5,11 +5,10 @@
     <inlineHelpText>WHERE clause of the SOQL query that will be used in flow to keep this target up to date. Omit the SELECT clause and the object and &quot;WHERE&quot;--those are added to the query by a formula.
 Leave blank if this is not a record that will be kept up to date by a flow.</inlineHelpText>
     <label>SOQL WHERE clause</label>
-    <length>255</length>
-    <required>false</required>
+    <length>1500</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
 </CustomField>

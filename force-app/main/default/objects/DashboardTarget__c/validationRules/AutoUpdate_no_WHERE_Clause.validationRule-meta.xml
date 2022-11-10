@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoUpdate_no_WHERE_Clause</fullName>
+    <active>true</active>
+    <description>If this is an auto-updated record it should have a WHERE Clause and an Object API Name</description>
+    <errorConditionFormula>Auto_Update__c
+&amp;&amp; OR( ISBLANK( SOQL_WHERE_clause__c ), ISBLANK( Object_API_Name__c ) )</errorConditionFormula>
+    <errorDisplayField>Auto_Update__c</errorDisplayField>
+    <errorMessage>Auto-Updated DashboardTargets must have a SOQL WHERE clause and an Object API Name</errorMessage>
+</ValidationRule>

@@ -24,12 +24,12 @@ If you want to use this project in real life I **strongly** recommend you deploy
     1. a. sfdx force:auth:web:login --setalias __aliasforsandbox__ --instanceurl https://test.salesforce.com 
     2. (once taken to test.salesforce.com you can click to use a custom domain)
 2. Delete from your local copy of the project all the parts of it that you do not want to deploy (and are going to cause you errors in deployment.) This means:
-    3. the dashboards (because the running user won't exist)
-    4. the reports (irrelevant)
-    5. the applications (I assume you don't want or need to modify the standard Sales app in your sandbox)
-    6. the list views for Account and Contact (you shouldn't need them)
-    7. and the profiles (you won't be able to deploy them without heavy editing)
+    1. the dashboards (because the running user won't exist)
+    2. the reports (irrelevant)
+    3. the applications (I assume you don't want or need to modify the standard Sales app in your sandbox)
+    4. the list views for Account and Contact (you shouldn't need them)
+    5. and the profiles (you won't be able to deploy them without heavy editing)
 3. Deploy the metadata:
-    8. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
-    9. is this another bullet?
+    1. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
+    2. is this another bullet?
 4. Once deployed you will need to modify field level security for all of the deployed fields or nobody will be able to see them--even you!

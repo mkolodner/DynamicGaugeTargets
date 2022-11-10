@@ -31,5 +31,5 @@ If you want to use this project in real life I **strongly** recommend you deploy
     5. and the profiles (you won't be able to deploy them without heavy editing)
 3. Deploy the metadata:
     1. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
-    2. is this another bullet?
 4. Once deployed you will need to modify field level security for all of the deployed fields or nobody will be able to see them--even you!
+5. Don't forget to modify and/or activate the flows that are installed.

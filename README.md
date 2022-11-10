@@ -20,8 +20,6 @@ To work on this project in a scratch org:
 
 If you want to use this project in real life I **strongly** recommend you deploy it to a sandbox first, test, and then deploy from the sandbox to production. Steps to deploy to a sandbox:
 
-
-
 1. Connect your sandbox to SFDX
     1. a. sfdx force:auth:web:login --setalias __name of sandbox__ --instanceurl https://test.salesforce.com 
     2. (once taken to test.salesforce.com you can click to use a custom domain)

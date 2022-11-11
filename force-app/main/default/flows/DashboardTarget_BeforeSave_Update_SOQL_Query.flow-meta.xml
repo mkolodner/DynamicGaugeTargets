@@ -80,7 +80,7 @@
         <connector>
             <targetReference>Auto_Update</targetReference>
         </connector>
-        <filterLogic>or</filterLogic>
+        <filterLogic>(1 OR 2) OR 3</filterLogic>
         <filters>
             <field>SOQL_WHERE_clause__c</field>
             <operator>IsChanged</operator>
@@ -91,6 +91,13 @@
         <filters>
             <field>Object_API_Name__c</field>
             <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>IsNull</operator>
             <value>
                 <booleanValue>true</booleanValue>
             </value>

@@ -2,7 +2,7 @@
 
 This repo demonstrates creating an object (DashboardTarget) for storing target numbers for [dashboard Dynamic Gauge components](https://help.salesforce.com/s/articleView?id=sf.dashboards_lex_chart_gauge.htm&type=5). Without something like this if you want to use dynamic gauges you need to either base them on a number that already exists on a particular target record (such as a campaign with a Revenue Goal field) or use some other workaround because the dynamic gauges are based on records, not on metadata.
 
-With a DashboardTarget object you have an convenient place to create records for any gauges you will want to create. The object is built to allow for either manually created and maintained records or records that are automatically updated. 
+With a DashboardTarget object you have a convenient place to create records for any gauges you will want to create. The object is built to allow for either manually created and maintained records or records that are automatically updated. 
 
 An example of a manual record could be "2023 fundraising target." This is a number that staff arrive at through discussion and is not directly generated from data. Using a manual DashboardTarget you can put in the number and use it on a dashboard. If the goal is changed later due to further discussions all you have to do is change the one record and any dashboards based it on will immediately keep pace.
 

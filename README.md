@@ -18,7 +18,7 @@ To work on this project in a scratch org:
 
 ## Use
 
-If you want to use this project in real life I **strongly** recommend you deploy it to a sandbox first, test, and then deploy from the sandbox to production. Steps to deploy to a sandbox:
+If you want to use this project in real life I **strongly** recommend you deploy it to a sandbox first, test, and then deploy from the sandbox to production. I hope to create an unmanaged package at some point once I learn how to do that. So for now: Steps to deploy to a sandbox:
 
 1. Connect your sandbox to SFDX
     1. a. sfdx force:auth:web:login --setalias __aliasforsandbox__ --instanceurl https://test.salesforce.com 
@@ -32,5 +32,5 @@ If you want to use this project in real life I **strongly** recommend you deploy
     5. folder: profiles (you woudln't be able to deploy the admin profile without heavy editing)
 4. Deploy the metadata:
     1. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
-5. Once deployed you will need to modify field level security for all of the deployed fields (or nobody will be able to see them--even you!)
+5. Once deployed you will need to modify field level security for all of the deployed fields, plus CRUD and tab visibility for DashboardTarget (or nobody will be able to see them--even you!)
 6. Don't forget to modify and/or activate the flows that are installed.

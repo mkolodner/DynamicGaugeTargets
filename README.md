@@ -15,7 +15,6 @@ To work on this project in a scratch org:
 1. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/tutorial.html)
 2. Run `cci flow run dev_org --org dev` to deploy this project.
 3. Run `cci org browser dev` to open the org in your browser.
-4. As of this writing (11/10/2022) the filter logic for the entry conditions for flow DashboardTarget_BeforeSave_Update_SOQL_Query does not save. It should be OR logic. You will have to manually update this as of now.
 
 ## Use
 
@@ -35,4 +34,3 @@ If you want to use this project in real life I **strongly** recommend you deploy
     1. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
 5. Once deployed you will need to modify field level security for all of the deployed fields (or nobody will be able to see them--even you!)
 6. Don't forget to modify and/or activate the flows that are installed.
-7. As of this writing (11/10/2022) the filter logic for the entry conditions for flow DashboardTarget_BeforeSave_Update_SOQL_Query does not save. It should be OR logic. You will have to manually update this as of now.

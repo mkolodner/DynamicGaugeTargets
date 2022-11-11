@@ -48,3 +48,7 @@ If you want to use this project in real life I **strongly** recommend you deploy
     1. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
 5. Once deployed you will need to modify field level security for all of the deployed fields, plus CRUD and tab visibility for DashboardTarget (or nobody will be able to see them--even you!)
 6. Don't forget to modify and/or activate the flows that are installed.
+
+## Acknowledgments
+
+The idea for developing this project was sparked by my work with [the Academy Group](https://theacademygroup.com).

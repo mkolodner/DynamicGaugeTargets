@@ -6,6 +6,7 @@ CREATE TABLE "Account" (
 );
 INSERT INTO "Account" VALUES(1,'AccountName2');
 INSERT INTO "Account" VALUES(2,'AccountName1');
+INSERT INTO "Account" VALUES(3,'Sample Account for Entitlements');
 CREATE TABLE "Campaign" (
 	id INTEGER NOT NULL, 
 	"IsActive" VARCHAR(255), 

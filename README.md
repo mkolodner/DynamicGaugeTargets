@@ -29,7 +29,7 @@ If you want to use this project in real life I **strongly** recommend you deploy
     2. Folder: reports (irrelevant)
     3. Folder: applications (I assume you don't want or need to modify the standard Sales app in your sandbox)
     4. Folders for Account and Contact within the objects folder. (All that's there are list views and you shouldn't need them.)
-    5. folder: profiles (you woudln't be able to deploy the admin profile without heavy editing)
+    5. folder: profiles (you wouldn't be able to deploy the admin profile without heavy editing anyway)
 4. Deploy the metadata:
     1. sfdx force:source:deploy -u __aliasforsandbox__ -p 'force-app'
 5. Once deployed you will need to modify field level security for all of the deployed fields, plus CRUD and tab visibility for DashboardTarget (or nobody will be able to see them--even you!)

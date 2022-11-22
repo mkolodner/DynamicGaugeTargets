@@ -1,7 +1,8 @@
 # DynamicGaugeTargets
 
-This repo demonstrates creating an object (DashboardTarget) for storing target numbers for [dashboard Dynamic Gauge components](https://help.salesforce.com/s/articleView?id=sf.dashboards_lex_chart_gauge.htm&type=5). 
-Go to the [project wiki](https://github.com/mkolodner/DynamicGaugeTargets/wiki) for install instructions, all documentation and user-focused content. Here within the repo (and this ReadMe) you will only find information about using the actual repo's code.
+**Go to the [project wiki](https://github.com/mkolodner/DynamicGaugeTargets/wiki) for install instructions, all documentation and user-focused content.**
+
+This repo demonstrates creating an object (DashboardTarget) for storing target numbers for [dashboard Dynamic Gauge components](https://help.salesforce.com/s/articleView?id=sf.dashboards_lex_chart_gauge.htm&type=5).  Here within the repo (and this ReadMe) you will only find information about using the actual repo's code.
 
 
 There is a dependency on UnofficialSF's flow component for using SQOL (https://unofficialsf.com/a-graphical-soql-query-builder-for-flow/) which gets automatically installed in scratch orgs.
